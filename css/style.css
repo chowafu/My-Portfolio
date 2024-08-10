@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/doctor-glitch');
+
+:root {
+    --bg: #FBFCF8;
+    --primary-color: #EF476F;
+    --secondary-color: #F78C6B;
+    --accent-color: #FFD166;
+}
+body {
+    background-color: var(--bg);
+}
+
+.code, .active {
+    color: #FF10F0;
+}
+
+.glitch-font {
+    font-family: 'Doctor Glitch', sans-serif;
+}
