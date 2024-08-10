@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/doctor-glitch');
 
 :root {
-    --bg: #FBFCF8;
+    --bg: #f0f0f0;
     --primary-color: #EF476F;
     --secondary-color: #F78C6B;
     --accent-color: #FFD166;
@@ -16,4 +16,15 @@ body {
 
 .glitch-font {
     font-family: 'Doctor Glitch', sans-serif;
+}
+
+.container-fluid {
+    /* Since navbar height is 58px */
+    padding-top: 58px;
+}
+
+#collapse {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
 }
